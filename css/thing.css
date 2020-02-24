@@ -22,8 +22,8 @@ body {
     background-color: #212530;
     color: white;
     font-family: 'Montserrat', sans-serif;
-    text-align: center;
-    align-items: center;
+    /* text-align: center;
+    align-items: center; */
 }
 p {
 
@@ -41,7 +41,7 @@ a {
     text-decoration: none;
     transition: background-size .5s;
   }
-  
+
 a:hover {
   background-size: 4px 50px;
 }
@@ -51,7 +51,43 @@ a:hover {
     padding: 6px;
     cursor: pointer;
 }
-.blah { padding-top: 5em; }
-li {
+
+.navbar {
+  position: absolute;
+}
+.bold {
+  font-weight: bold;
+}
+.menubutton {
+  outline: 0.5px solid white;
+  padding: 2px;
+  cursor: pointer;
+  display: block;
+}
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.command {
+  font-style: italic;
+}
+.devlist {
+  padding-left: 50px;
+}
+.docbutton {
+    /* position: absolute;
+    left: 0px; */
+}
+.infobutton {
+    /* position: absolute;
+    left: 0px; */
+}
+.blah {
+  padding-top: 5em;
+  text-align: center;
+  align-items: center;
+}
+li.no-bullets {
     list-style-type: none;
 }
